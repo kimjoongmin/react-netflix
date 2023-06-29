@@ -54,10 +54,11 @@ const SearchPage = () => {
                 >
                   <img
                     src={movieImageUrl}
-                    alt="movie"
+                    alt={`${movie.name ? movie.name : movie.title}`}
                     className="movie__poster"
                   />
                 </div>
+                <p style={{color:'white'}}>{`${movie.name ? movie.name : movie.title}`}</p>
               </div>
             );
           }

@@ -1,7 +1,6 @@
 /* eslint-disable */
 import React, {useState, useEffect} from 'react';
 import axios from '../api/axios';
-import "./Row.css";
 import MovieModal from './MovieModal/index'
 import {Navigation, Pagination, Scrollbar, A11y} from 'swiper';
 import {Swiper, SwiperSlide } from 'swiper/react'
@@ -10,6 +9,7 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
+import "./Row.css";
 
 
 const Row = ({isLargeRow, title, id, fetchUrl}) => {

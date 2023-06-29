@@ -49,3 +49,4 @@ index.js
 ```
 npm run deploy
 ```
+deploy를 해야 github.io에서 반영되는 것을 확인.
